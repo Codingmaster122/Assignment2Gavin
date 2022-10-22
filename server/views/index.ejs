@@ -1,0 +1,18 @@
+<%- include partials/header.ejs %> <%- include partials/main_nav.ejs %>
+
+<!-- Main Content -->
+<main class="container">
+  <div class="jumbotron">
+    <%- include('partials/' + page + '.ejs'); %>
+  
+   
+    <style>
+      body { 
+       background-color: #d04e4e;
+       color: #444;
+     }
+    </style>       
+  </div>
+</main>
+
+<%- include partials/bottom_nav.ejs %> <%- include partials/footer.ejs %>
